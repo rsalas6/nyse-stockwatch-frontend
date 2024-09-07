@@ -36,7 +36,7 @@
                             href="https://nyse-api.beto.page/redoc/"
                             target="_blank"
                         >
-                            Docs
+                            Redoc API Docs
                         </a>
                         <a
                             v-tooltip.bottom="'Backend repository'"
