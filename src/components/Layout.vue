@@ -44,7 +44,7 @@
                             href="https://github.com/rsalas6/nyse-stockwatch-backend"
                             target="_blank"
                         >
-                            <i class="pi pi-github mr-2"></i>
+                            <i class="pi pi-github ml-2 mr-2"></i> Backend
                         </a>
                         <a
                             v-tooltip.bottom="'Frontend repository'"
@@ -52,7 +52,7 @@
                             href="https://github.com/rsalas6/nyse-stockwatch-frontend"
                             target="_blank"
                         >
-                            <i class="pi pi-github mr-2"></i>
+                            <i class="pi pi-github ml-2 mr-2"></i> Frontend
                         </a>
                         <Button :icon="`pi ${icon}`" class="text-white/70 hover:text-white !px-0 w-2" text rounded size="small" @click="visible = true;" />
                     </div>
