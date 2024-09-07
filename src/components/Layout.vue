@@ -30,15 +30,26 @@
                         >
                             About
                         </router-link>
-                        <router-link
+                        <a
+                            v-tooltip.bottom="'Redoc documentation'"
                             class="font-medium text-white/70 hover:text-white focus:outline-none focus:text-white"
-                            to="/about"
+                            href="https://nyse-api.beto.page/redoc/"
+                            target="_blank"
                         >
                             Docs
-                        </router-link>
+                        </a>
                         <a
+                            v-tooltip.bottom="'Backend repository'"
                             class="font-medium text-white/70 hover:text-white focus:outline-none focus:text-white flex items-center"
-                            href="https://github.com"
+                            href="https://github.com/rsalas6/nyse-stockwatch-backend"
+                            target="_blank"
+                        >
+                            <i class="pi pi-github mr-2"></i>
+                        </a>
+                        <a
+                            v-tooltip.bottom="'Frontend repository'"
+                            class="font-medium text-white/70 hover:text-white focus:outline-none focus:text-white flex items-center"
+                            href="https://github.com/rsalas6/nyse-stockwatch-frontend"
                             target="_blank"
                         >
                             <i class="pi pi-github mr-2"></i>
