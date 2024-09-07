@@ -236,7 +236,12 @@ export default {
                     }, 300);
                 }
             } catch (error) {
-                this.error = error.message || 'Error fetching companies';
+                this.$toast.add({
+                    severity: 'error',
+                    summary: 'Error',
+                    detail: error.response?.data?.detail || 'Unexpected error.',
+                    life: 3000
+                });
                 this.ui.loading = false;
             }
         },
