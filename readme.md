@@ -1,6 +1,6 @@
 # NYSE StockWatch Frontend
 
-The `nyse-stockwatch-frontend` is a Vue.js application developed as part of a technical assessment by **Roberto Salas**. This application interacts with a backend API built using Django REST framework, providing users with the ability to manage companies, validate stock symbols via external APIs, and view real-time stock market data. 
+The `nyse-stockwatch-frontend` is a Vue.js application developed as part of a technical assessment by **Roberto Salas**. This application interacts with a backend API built using Django REST framework, providing users with the ability to manage companies, validate stock symbols via external APIs, and view real-time stock market data.
 
 ## Features
 
